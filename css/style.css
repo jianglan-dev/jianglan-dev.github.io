@@ -2622,7 +2622,7 @@ a.waves-effect .waves-ripple {
   opacity: 1;
 }
 #menu .nav {
-  margin: 100;
+  margin: 0;
   padding: 12px 0;
   list-style: none;
   line-height: 44px;
@@ -2632,7 +2632,7 @@ a.waves-effect .waves-ripple {
   padding: 0 20px;
 }
 #menu .nav li .icon {
-  padding-right: 0;
+  padding-right: 30px;
 }
 #menu .nav li:hover,
 #menu .nav li.active {
