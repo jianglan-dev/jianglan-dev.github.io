@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jianglan-dev.github.io/"/>
-  <updated>2016-06-05T17:09:41.000Z</updated>
+  <updated>2016-06-06T16:41:56.000Z</updated>
   <id>https://jianglan-dev.github.io/</id>
   
   <author>
@@ -20,61 +20,64 @@
     <link href="https://jianglan-dev.github.io/2016/06/05/Markdown%E8%AF%AD%E6%B3%95%E6%8C%87%E5%8D%97/"/>
     <id>https://jianglan-dev.github.io/2016/06/05/Markdown语法指南/</id>
     <published>2016-06-05T14:41:49.000Z</published>
-    <updated>2016-06-05T17:09:41.000Z</updated>
+    <updated>2016-06-06T16:41:56.000Z</updated>
     
     <content type="html">&lt;p&gt;简单记录下Markdown基础语法。&lt;/p&gt;
-&lt;h2 id=&quot;标题&quot;&gt;&lt;a href=&quot;#标题&quot; class=&quot;headerlink&quot; title=&quot;标题&quot;&gt;&lt;/a&gt;标题&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;# 一级标题&lt;br&gt;&lt;br&gt;## 二级标题&lt;br&gt;&lt;br&gt;### 三级标题&lt;br&gt;&lt;br&gt;#### 四级标题&lt;br&gt;&lt;br&gt;##### 五级标题&lt;br&gt;&lt;br&gt;###### 六级标题&lt;br&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;列表&quot;&gt;&lt;a href=&quot;#列表&quot; class=&quot;headerlink&quot; title=&quot;列表&quot;&gt;&lt;/a&gt;列表&lt;/h2&gt;&lt;p&gt;无序列表：(星号会被圆点替代)&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;* Mac OSX&lt;br&gt;&lt;br&gt;* Windows&lt;br&gt;&lt;br&gt;* Linux&lt;br&gt;&lt;br&gt;* Unix&lt;br&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;有序列表：(效果一样)&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;1. Mac OSX&lt;br&gt;&lt;br&gt;2. Windows&lt;br&gt;&lt;br&gt;3. Linux&lt;br&gt;&lt;br&gt;4. Unix&lt;br&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;引用&quot;&gt;&lt;a href=&quot;#引用&quot; class=&quot;headerlink&quot; title=&quot;引用&quot;&gt;&lt;/a&gt;引用&lt;/h2&gt;&lt;p&gt;&lt;code&gt;&amp;gt; 这是一段引用文字。&lt;/code&gt;&lt;/p&gt;
-&lt;blockquote&gt;
+&lt;h2 id=&quot;标题&quot;&gt;&lt;a href=&quot;#标题&quot; class=&quot;headerlink&quot; title=&quot;标题&quot;&gt;&lt;/a&gt;标题&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;# 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;列表&quot;&gt;&lt;a href=&quot;#列表&quot; class=&quot;headerlink&quot; title=&quot;列表&quot;&gt;&lt;/a&gt;列表&lt;/h2&gt;&lt;p&gt;无序列表：(星号会被圆点替代)&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;* Mac OSX
+* Windows
+* Linux
+* Unix
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;有序列表：(效果一样)&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;1. Mac OSX
+2. Windows
+3. Linux
+4. Unix
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;引用&quot;&gt;&lt;a href=&quot;#引用&quot; class=&quot;headerlink&quot; title=&quot;引用&quot;&gt;&lt;/a&gt;引用&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;&amp;gt; 这是一段引用文字。
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
 &lt;p&gt;这是一段引用文字。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&quot;插入链接&quot;&gt;&lt;a href=&quot;#插入链接&quot; class=&quot;headerlink&quot; title=&quot;插入链接&quot;&gt;&lt;/a&gt;插入链接&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;[百度一下](&lt;a href=&quot;http://www.baidu.com)，你就知道。&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.baidu.com)，你就知道。&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.baidu.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;百度一下&lt;/a&gt;，你就知道。&lt;/p&gt;
-&lt;h2 id=&quot;插入图片&quot;&gt;&lt;a href=&quot;#插入图片&quot; class=&quot;headerlink&quot; title=&quot;插入图片&quot;&gt;&lt;/a&gt;插入图片&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;![风景](&lt;a href=&quot;http://img2.imgtn.bdimg.com/it/u=397276370,1341734514&amp;amp;fm=21&amp;amp;gp=0.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://img2.imgtn.bdimg.com/it/u=397276370,1341734514&amp;amp;fm=21&amp;amp;gp=0.jpg&lt;/a&gt;)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;http://img2.imgtn.bdimg.com/it/u=397276370,1341734514&amp;amp;fm=21&amp;amp;gp=0.jpg&quot; alt=&quot;风景&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;斜体和粗体&quot;&gt;&lt;a href=&quot;#斜体和粗体&quot; class=&quot;headerlink&quot; title=&quot;斜体和粗体&quot;&gt;&lt;/a&gt;斜体和粗体&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;我是*斜体字*，我是**粗体字**，我是***斜体字加粗***。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我是&lt;em&gt;斜体字&lt;/em&gt;，我是&lt;strong&gt;粗体字&lt;/strong&gt;，我是&lt;strong&gt;&lt;em&gt;斜体字加粗&lt;/em&gt;&lt;/strong&gt;。&lt;/p&gt;
-&lt;h2 id=&quot;分割线&quot;&gt;&lt;a href=&quot;#分割线&quot; class=&quot;headerlink&quot; title=&quot;分割线&quot;&gt;&lt;/a&gt;分割线&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;***或---&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;代码块&quot;&gt;&lt;a href=&quot;#代码块&quot; class=&quot;headerlink&quot; title=&quot;代码块&quot;&gt;&lt;/a&gt;代码块&lt;/h2&gt;&lt;h3 id=&quot;行内代码块&quot;&gt;&lt;a href=&quot;#行内代码块&quot; class=&quot;headerlink&quot; title=&quot;行内代码块&quot;&gt;&lt;/a&gt;行内代码块&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;iOS中使用`NSLog(@”Hello World”)`输出日志。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;iOS中使用&lt;code&gt;NSLog(@&amp;quot;Hello World&amp;quot;)&lt;/code&gt;输出日志。&lt;/p&gt;
-&lt;h3 id=&quot;段代码块&quot;&gt;&lt;a href=&quot;#段代码块&quot; class=&quot;headerlink&quot; title=&quot;段代码块&quot;&gt;&lt;/a&gt;段代码块&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;```[语言]&lt;br&gt;&lt;br&gt;代码块…&lt;br&gt;&lt;br&gt;```&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;// js to oc&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;JSContext *context = [[JSContext alloc] init];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;[context evaluateScript:@&amp;quot;var num = 5 + 5&amp;quot;];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;[context evaluateScript:@&amp;quot;var names = [&amp;apos;Lucy&amp;apos;, &amp;apos;Lance&amp;apos;, &amp;apos;Lily&amp;apos;]&amp;quot;];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;[context evaluateScript:@&amp;quot;var triple = function(value) &amp;#123;return value * 3&amp;#125;&amp;quot;];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;JSValue *tripleNum = [context evaluateScript:@&amp;quot;triple(num)&amp;quot;];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;NSLog(@&amp;quot;triple num = %lf&amp;quot;, tripleNum.toDouble);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h2 id=&quot;表格&quot;&gt;&lt;a href=&quot;#表格&quot; class=&quot;headerlink&quot; title=&quot;表格&quot;&gt;&lt;/a&gt;表格&lt;/h2&gt;&lt;p&gt;A simple table looks like this:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;First Header | Second Header | Third Header&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;------------ | ------------- | ------------&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Content Cell | Content Cell  | Content Cell&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Content Cell | Content Cell  | Content Cell&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;If you wish, you can add a leading and tailing pipe to each line of the table:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;| First Header | Second Header | Third Header |&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;| ------------ | ------------- | ------------ |&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;| Content Cell | Content Cell  | Content Cell |&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;| Content Cell | Content Cell  | Content Cell |&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Specify alignement for each column by adding colons to separator lines:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;First Header | Second Header | Third Header&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;:----------- | :-----------: | -----------:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Left         | Center        | Right&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Left         | Center        | Right&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;效果如下：&lt;/p&gt;
+&lt;h2 id=&quot;插入链接&quot;&gt;&lt;a href=&quot;#插入链接&quot; class=&quot;headerlink&quot; title=&quot;插入链接&quot;&gt;&lt;/a&gt;插入链接&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;[百度一下](http://www.baidu.com)，你就知道。
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;a href=&quot;http://www.baidu.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;百度一下&lt;/a&gt;，你就知道。&lt;/p&gt;
+&lt;h2 id=&quot;插入图片&quot;&gt;&lt;a href=&quot;#插入图片&quot; class=&quot;headerlink&quot; title=&quot;插入图片&quot;&gt;&lt;/a&gt;插入图片&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;![风景](http://img2.imgtn.bdimg.com/it/u=397276370,1341734514&amp;amp;fm=21&amp;amp;gp=0.jpg)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&quot;http://img2.imgtn.bdimg.com/it/u=397276370,1341734514&amp;amp;fm=21&amp;amp;gp=0.jpg&quot; alt=&quot;风景&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;斜体和粗体&quot;&gt;&lt;a href=&quot;#斜体和粗体&quot; class=&quot;headerlink&quot; title=&quot;斜体和粗体&quot;&gt;&lt;/a&gt;斜体和粗体&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;我是*斜体字*，我是**粗体字**，我是***斜体字加粗***。
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;我是&lt;em&gt;斜体字&lt;/em&gt;，我是&lt;strong&gt;粗体字&lt;/strong&gt;，我是&lt;strong&gt;&lt;em&gt;斜体字加粗&lt;/em&gt;&lt;/strong&gt;。&lt;/p&gt;
+&lt;h2 id=&quot;分割线&quot;&gt;&lt;a href=&quot;#分割线&quot; class=&quot;headerlink&quot; title=&quot;分割线&quot;&gt;&lt;/a&gt;分割线&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;***或---
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;h2 id=&quot;代码块&quot;&gt;&lt;a href=&quot;#代码块&quot; class=&quot;headerlink&quot; title=&quot;代码块&quot;&gt;&lt;/a&gt;代码块&lt;/h2&gt;&lt;h3 id=&quot;行内代码块&quot;&gt;&lt;a href=&quot;#行内代码块&quot; class=&quot;headerlink&quot; title=&quot;行内代码块&quot;&gt;&lt;/a&gt;行内代码块&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;iOS中使用`NSLog(@&amp;quot;Hello World&amp;quot;)`输出日志。
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;iOS中使用&lt;code&gt;NSLog(@&amp;quot;Hello World&amp;quot;)&lt;/code&gt;输出日志。&lt;/p&gt;
+&lt;h3 id=&quot;段代码块&quot;&gt;&lt;a href=&quot;#段代码块&quot; class=&quot;headerlink&quot; title=&quot;段代码块&quot;&gt;&lt;/a&gt;段代码块&lt;/h3&gt;&lt;p&gt;代码块前后各3个”`”，语言可选。（为了解决显示问题，下面语法中的某些符号用单引号”‘“代替）&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;``&amp;apos;[语言]
+代码块...
+``&amp;apos;
+&lt;/code&gt;&lt;/pre&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;// js to oc&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;JSContext *context = [[JSContext alloc] init];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;[context evaluateScript:@&amp;quot;var num = 5 + 5&amp;quot;];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;[context evaluateScript:@&amp;quot;var names = [&amp;apos;Lucy&amp;apos;, &amp;apos;Lance&amp;apos;, &amp;apos;Lily&amp;apos;]&amp;quot;];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;[context evaluateScript:@&amp;quot;var triple = function(value) &amp;#123;return value * 3&amp;#125;&amp;quot;];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;JSValue *tripleNum = [context evaluateScript:@&amp;quot;triple(num)&amp;quot;];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;NSLog(@&amp;quot;triple num = %lf&amp;quot;, tripleNum.toDouble);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;文本段块&quot;&gt;&lt;a href=&quot;#文本段块&quot; class=&quot;headerlink&quot; title=&quot;文本段块&quot;&gt;&lt;/a&gt;文本段块&lt;/h3&gt;&lt;p&gt;每行前面加四个空格或者一个tab。类似于段代码块，但是在每行前面不会有行数。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;PHP是世界上最好的语言；
+Java是世界上最好的语言。
+Objective-C是世界上最好的语言;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;表格&quot;&gt;&lt;a href=&quot;#表格&quot; class=&quot;headerlink&quot; title=&quot;表格&quot;&gt;&lt;/a&gt;表格&lt;/h2&gt;&lt;p&gt;A simple table looks like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;First Header | Second Header | Third Header
+------------ | ------------- | ------------
+Content Cell | Content Cell  | Content Cell
+Content Cell | Content Cell  | Content Cell
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If you wish, you can add a leading and tailing pipe to each line of the table:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;| First Header | Second Header | Third Header |
+| ------------ | ------------- | ------------ |
+| Content Cell | Content Cell  | Content Cell |
+| Content Cell | Content Cell  | Content Cell |
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Specify alignement for each column by adding colons to separator lines:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;First Header | Second Header | Third Header
+:----------- | :-----------: | -----------:
+Left         | Center        | Right
+Left         | Center        | Right
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;效果如下：&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -101,8 +104,11 @@
     <summary type="html">
     
       &lt;p&gt;简单记录下Markdown基础语法。&lt;/p&gt;
-&lt;h2 id=&quot;标题&quot;&gt;&lt;a href=&quot;#标题&quot; class=&quot;headerlink&quot; title=&quot;标题&quot;&gt;&lt;/a&gt;标题&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;# 一级标题&lt;br&gt;&lt;br&gt;## 二级标题&lt;br&gt;&lt;br&gt;##
+&lt;h2 id=&quot;标题&quot;&gt;&lt;a href=&quot;#标题&quot; class=&quot;headerlink&quot; title=&quot;标题&quot;&gt;&lt;/a&gt;标题&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;# 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##
     
     </summary>
     
