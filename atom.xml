@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jianglan-dev.github.io/"/>
-  <updated>2016-06-06T16:41:56.000Z</updated>
+  <updated>2016-06-08T16:21:22.000Z</updated>
   <id>https://jianglan-dev.github.io/</id>
   
   <author>
@@ -20,49 +20,50 @@
     <link href="https://jianglan-dev.github.io/2016/06/05/Markdown%E8%AF%AD%E6%B3%95%E6%8C%87%E5%8D%97/"/>
     <id>https://jianglan-dev.github.io/2016/06/05/Markdown语法指南/</id>
     <published>2016-06-05T14:41:49.000Z</published>
-    <updated>2016-06-06T16:41:56.000Z</updated>
+    <updated>2016-06-08T16:21:22.000Z</updated>
     
-    <content type="html">&lt;p&gt;简单记录下Markdown基础语法。&lt;/p&gt;
-&lt;h2 id=&quot;标题&quot;&gt;&lt;a href=&quot;#标题&quot; class=&quot;headerlink&quot; title=&quot;标题&quot;&gt;&lt;/a&gt;标题&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;# 一级标题
-## 二级标题
-### 三级标题
-#### 四级标题
-##### 五级标题
-###### 六级标题
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;列表&quot;&gt;&lt;a href=&quot;#列表&quot; class=&quot;headerlink&quot; title=&quot;列表&quot;&gt;&lt;/a&gt;列表&lt;/h2&gt;&lt;p&gt;无序列表：(星号会被圆点替代)&lt;/p&gt;
+    <content type="html">&lt;p&gt;&amp;#x7B80;&amp;#x5355;&amp;#x8BB0;&amp;#x5F55;&amp;#x4E0B;Markdown&amp;#x57FA;&amp;#x7840;&amp;#x8BED;&amp;#x6CD5;&amp;#x3002;&lt;/p&gt;
+&lt;h2 id=&quot;&amp;#x6807;&amp;#x9898;&quot;&gt;&lt;a href=&quot;#&amp;#x6807;&amp;#x9898;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x6807;&amp;#x9898;&quot;&gt;&lt;/a&gt;&amp;#x6807;&amp;#x9898;&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;# &amp;#x4E00;&amp;#x7EA7;&amp;#x6807;&amp;#x9898;
+## &amp;#x4E8C;&amp;#x7EA7;&amp;#x6807;&amp;#x9898;
+### &amp;#x4E09;&amp;#x7EA7;&amp;#x6807;&amp;#x9898;
+#### &amp;#x56DB;&amp;#x7EA7;&amp;#x6807;&amp;#x9898;
+##### &amp;#x4E94;&amp;#x7EA7;&amp;#x6807;&amp;#x9898;
+###### &amp;#x516D;&amp;#x7EA7;&amp;#x6807;&amp;#x9898;
+&lt;/code&gt;&lt;/pre&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;&amp;#x5217;&amp;#x8868;&quot;&gt;&lt;a href=&quot;#&amp;#x5217;&amp;#x8868;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x5217;&amp;#x8868;&quot;&gt;&lt;/a&gt;&amp;#x5217;&amp;#x8868;&lt;/h2&gt;&lt;p&gt;&amp;#x65E0;&amp;#x5E8F;&amp;#x5217;&amp;#x8868;&amp;#xFF1A;(&amp;#x661F;&amp;#x53F7;&amp;#x4F1A;&amp;#x88AB;&amp;#x5706;&amp;#x70B9;&amp;#x66FF;&amp;#x4EE3;)&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;* Mac OSX
 * Windows
 * Linux
 * Unix
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;有序列表：(效果一样)&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&amp;#x6709;&amp;#x5E8F;&amp;#x5217;&amp;#x8868;&amp;#xFF1A;(&amp;#x6548;&amp;#x679C;&amp;#x4E00;&amp;#x6837;)&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;1. Mac OSX
 2. Windows
 3. Linux
 4. Unix
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;引用&quot;&gt;&lt;a href=&quot;#引用&quot; class=&quot;headerlink&quot; title=&quot;引用&quot;&gt;&lt;/a&gt;引用&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;&amp;gt; 这是一段引用文字。
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;&amp;#x5F15;&amp;#x7528;&quot;&gt;&lt;a href=&quot;#&amp;#x5F15;&amp;#x7528;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x5F15;&amp;#x7528;&quot;&gt;&lt;/a&gt;&amp;#x5F15;&amp;#x7528;&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;&amp;gt; &amp;#x8FD9;&amp;#x662F;&amp;#x4E00;&amp;#x6BB5;&amp;#x5F15;&amp;#x7528;&amp;#x6587;&amp;#x5B57;&amp;#x3002;
 &lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
-&lt;p&gt;这是一段引用文字。&lt;/p&gt;
+&lt;p&gt;&amp;#x8FD9;&amp;#x662F;&amp;#x4E00;&amp;#x6BB5;&amp;#x5F15;&amp;#x7528;&amp;#x6587;&amp;#x5B57;&amp;#x3002;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&quot;插入链接&quot;&gt;&lt;a href=&quot;#插入链接&quot; class=&quot;headerlink&quot; title=&quot;插入链接&quot;&gt;&lt;/a&gt;插入链接&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;[百度一下](http://www.baidu.com)，你就知道。
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;a href=&quot;http://www.baidu.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;百度一下&lt;/a&gt;，你就知道。&lt;/p&gt;
-&lt;h2 id=&quot;插入图片&quot;&gt;&lt;a href=&quot;#插入图片&quot; class=&quot;headerlink&quot; title=&quot;插入图片&quot;&gt;&lt;/a&gt;插入图片&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;![风景](http://img2.imgtn.bdimg.com/it/u=397276370,1341734514&amp;amp;fm=21&amp;amp;gp=0.jpg)
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&quot;http://img2.imgtn.bdimg.com/it/u=397276370,1341734514&amp;amp;fm=21&amp;amp;gp=0.jpg&quot; alt=&quot;风景&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;斜体和粗体&quot;&gt;&lt;a href=&quot;#斜体和粗体&quot; class=&quot;headerlink&quot; title=&quot;斜体和粗体&quot;&gt;&lt;/a&gt;斜体和粗体&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;我是*斜体字*，我是**粗体字**，我是***斜体字加粗***。
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;我是&lt;em&gt;斜体字&lt;/em&gt;，我是&lt;strong&gt;粗体字&lt;/strong&gt;，我是&lt;strong&gt;&lt;em&gt;斜体字加粗&lt;/em&gt;&lt;/strong&gt;。&lt;/p&gt;
-&lt;h2 id=&quot;分割线&quot;&gt;&lt;a href=&quot;#分割线&quot; class=&quot;headerlink&quot; title=&quot;分割线&quot;&gt;&lt;/a&gt;分割线&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;***或---
+&lt;h2 id=&quot;&amp;#x63D2;&amp;#x5165;&amp;#x94FE;&amp;#x63A5;&quot;&gt;&lt;a href=&quot;#&amp;#x63D2;&amp;#x5165;&amp;#x94FE;&amp;#x63A5;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x63D2;&amp;#x5165;&amp;#x94FE;&amp;#x63A5;&quot;&gt;&lt;/a&gt;&amp;#x63D2;&amp;#x5165;&amp;#x94FE;&amp;#x63A5;&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;[&amp;#x767E;&amp;#x5EA6;&amp;#x4E00;&amp;#x4E0B;](http://www.baidu.com)&amp;#xFF0C;&amp;#x4F60;&amp;#x5C31;&amp;#x77E5;&amp;#x9053;&amp;#x3002;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;a href=&quot;http://www.baidu.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;#x767E;&amp;#x5EA6;&amp;#x4E00;&amp;#x4E0B;&lt;/a&gt;&amp;#xFF0C;&amp;#x4F60;&amp;#x5C31;&amp;#x77E5;&amp;#x9053;&amp;#x3002;&lt;/p&gt;
+&lt;h2 id=&quot;&amp;#x63D2;&amp;#x5165;&amp;#x56FE;&amp;#x7247;&quot;&gt;&lt;a href=&quot;#&amp;#x63D2;&amp;#x5165;&amp;#x56FE;&amp;#x7247;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x63D2;&amp;#x5165;&amp;#x56FE;&amp;#x7247;&quot;&gt;&lt;/a&gt;&amp;#x63D2;&amp;#x5165;&amp;#x56FE;&amp;#x7247;&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;![&amp;#x98CE;&amp;#x666F;](http://img2.imgtn.bdimg.com/it/u=397276370,1341734514&amp;amp;fm=21&amp;amp;gp=0.jpg)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&quot;http://img2.imgtn.bdimg.com/it/u=397276370,1341734514&amp;amp;fm=21&amp;amp;gp=0.jpg&quot; alt=&quot;&amp;#x98CE;&amp;#x666F;&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;&amp;#x659C;&amp;#x4F53;&amp;#x548C;&amp;#x7C97;&amp;#x4F53;&quot;&gt;&lt;a href=&quot;#&amp;#x659C;&amp;#x4F53;&amp;#x548C;&amp;#x7C97;&amp;#x4F53;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x659C;&amp;#x4F53;&amp;#x548C;&amp;#x7C97;&amp;#x4F53;&quot;&gt;&lt;/a&gt;&amp;#x659C;&amp;#x4F53;&amp;#x548C;&amp;#x7C97;&amp;#x4F53;&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;&amp;#x6211;&amp;#x662F;*&amp;#x659C;&amp;#x4F53;&amp;#x5B57;*&amp;#xFF0C;&amp;#x6211;&amp;#x662F;**&amp;#x7C97;&amp;#x4F53;&amp;#x5B57;**&amp;#xFF0C;&amp;#x6211;&amp;#x662F;***&amp;#x659C;&amp;#x4F53;&amp;#x5B57;&amp;#x52A0;&amp;#x7C97;***&amp;#x3002;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&amp;#x6211;&amp;#x662F;&lt;em&gt;&amp;#x659C;&amp;#x4F53;&amp;#x5B57;&lt;/em&gt;&amp;#xFF0C;&amp;#x6211;&amp;#x662F;&lt;strong&gt;&amp;#x7C97;&amp;#x4F53;&amp;#x5B57;&lt;/strong&gt;&amp;#xFF0C;&amp;#x6211;&amp;#x662F;&lt;strong&gt;&lt;em&gt;&amp;#x659C;&amp;#x4F53;&amp;#x5B57;&amp;#x52A0;&amp;#x7C97;&lt;/em&gt;&lt;/strong&gt;&amp;#x3002;&lt;/p&gt;
+&lt;h2 id=&quot;&amp;#x5206;&amp;#x5272;&amp;#x7EBF;&quot;&gt;&lt;a href=&quot;#&amp;#x5206;&amp;#x5272;&amp;#x7EBF;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x5206;&amp;#x5272;&amp;#x7EBF;&quot;&gt;&lt;/a&gt;&amp;#x5206;&amp;#x5272;&amp;#x7EBF;&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;***&amp;#x6216;---
 &lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
-&lt;h2 id=&quot;代码块&quot;&gt;&lt;a href=&quot;#代码块&quot; class=&quot;headerlink&quot; title=&quot;代码块&quot;&gt;&lt;/a&gt;代码块&lt;/h2&gt;&lt;h3 id=&quot;行内代码块&quot;&gt;&lt;a href=&quot;#行内代码块&quot; class=&quot;headerlink&quot; title=&quot;行内代码块&quot;&gt;&lt;/a&gt;行内代码块&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;iOS中使用`NSLog(@&amp;quot;Hello World&amp;quot;)`输出日志。
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;iOS中使用&lt;code&gt;NSLog(@&amp;quot;Hello World&amp;quot;)&lt;/code&gt;输出日志。&lt;/p&gt;
-&lt;h3 id=&quot;段代码块&quot;&gt;&lt;a href=&quot;#段代码块&quot; class=&quot;headerlink&quot; title=&quot;段代码块&quot;&gt;&lt;/a&gt;段代码块&lt;/h3&gt;&lt;p&gt;代码块前后各3个”`”，语言可选。（为了解决显示问题，下面语法中的某些符号用单引号”‘“代替）&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;``&amp;apos;[语言]
-代码块...
+&lt;h2 id=&quot;&amp;#x4EE3;&amp;#x7801;&amp;#x5757;&quot;&gt;&lt;a href=&quot;#&amp;#x4EE3;&amp;#x7801;&amp;#x5757;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x4EE3;&amp;#x7801;&amp;#x5757;&quot;&gt;&lt;/a&gt;&amp;#x4EE3;&amp;#x7801;&amp;#x5757;&lt;/h2&gt;&lt;h3 id=&quot;&amp;#x884C;&amp;#x5185;&amp;#x4EE3;&amp;#x7801;&amp;#x5757;&quot;&gt;&lt;a href=&quot;#&amp;#x884C;&amp;#x5185;&amp;#x4EE3;&amp;#x7801;&amp;#x5757;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x884C;&amp;#x5185;&amp;#x4EE3;&amp;#x7801;&amp;#x5757;&quot;&gt;&lt;/a&gt;&amp;#x884C;&amp;#x5185;&amp;#x4EE3;&amp;#x7801;&amp;#x5757;&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;iOS&amp;#x4E2D;&amp;#x4F7F;&amp;#x7528;`NSLog(@&amp;quot;Hello World&amp;quot;)`&amp;#x8F93;&amp;#x51FA;&amp;#x65E5;&amp;#x5FD7;&amp;#x3002;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;iOS&amp;#x4E2D;&amp;#x4F7F;&amp;#x7528;&lt;code&gt;NSLog(@&amp;quot;Hello World&amp;quot;)&lt;/code&gt;&amp;#x8F93;&amp;#x51FA;&amp;#x65E5;&amp;#x5FD7;&amp;#x3002;&lt;/p&gt;
+&lt;h3 id=&quot;&amp;#x6BB5;&amp;#x4EE3;&amp;#x7801;&amp;#x5757;&quot;&gt;&lt;a href=&quot;#&amp;#x6BB5;&amp;#x4EE3;&amp;#x7801;&amp;#x5757;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x6BB5;&amp;#x4EE3;&amp;#x7801;&amp;#x5757;&quot;&gt;&lt;/a&gt;&amp;#x6BB5;&amp;#x4EE3;&amp;#x7801;&amp;#x5757;&lt;/h3&gt;&lt;p&gt;&amp;#x4EE3;&amp;#x7801;&amp;#x5757;&amp;#x524D;&amp;#x540E;&amp;#x5404;3&amp;#x4E2A;&amp;#x201D;`&amp;#x201D;&amp;#xFF0C;&amp;#x8BED;&amp;#x8A00;&amp;#x53EF;&amp;#x9009;&amp;#x3002;&amp;#xFF08;&amp;#x4E3A;&amp;#x4E86;&amp;#x89E3;&amp;#x51B3;&amp;#x663E;&amp;#x793A;&amp;#x95EE;&amp;#x9898;&amp;#xFF0C;&amp;#x4E0B;&amp;#x9762;&amp;#x8BED;&amp;#x6CD5;&amp;#x4E2D;&amp;#x7684;&amp;#x67D0;&amp;#x4E9B;&amp;#x7B26;&amp;#x53F7;&amp;#x7528;&amp;#x5355;&amp;#x5F15;&amp;#x53F7;&amp;#x201D;&amp;#x2018;&amp;#x201C;&amp;#x4EE3;&amp;#x66FF;&amp;#xFF09;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;``&amp;apos;[&amp;#x8BED;&amp;#x8A00;]
+&amp;#x4EE3;&amp;#x7801;&amp;#x5757;...
 ``&amp;apos;
-&lt;/code&gt;&lt;/pre&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;// js to oc&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;JSContext *context = [[JSContext alloc] init];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;[context evaluateScript:@&amp;quot;var num = 5 + 5&amp;quot;];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;[context evaluateScript:@&amp;quot;var names = [&amp;apos;Lucy&amp;apos;, &amp;apos;Lance&amp;apos;, &amp;apos;Lily&amp;apos;]&amp;quot;];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;[context evaluateScript:@&amp;quot;var triple = function(value) &amp;#123;return value * 3&amp;#125;&amp;quot;];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;JSValue *tripleNum = [context evaluateScript:@&amp;quot;triple(num)&amp;quot;];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;NSLog(@&amp;quot;triple num = %lf&amp;quot;, tripleNum.toDouble);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;文本段块&quot;&gt;&lt;a href=&quot;#文本段块&quot; class=&quot;headerlink&quot; title=&quot;文本段块&quot;&gt;&lt;/a&gt;文本段块&lt;/h3&gt;&lt;p&gt;每行前面加四个空格或者一个tab。类似于段代码块，但是在每行前面不会有行数。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;PHP是世界上最好的语言；
-Java是世界上最好的语言。
-Objective-C是世界上最好的语言;
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;表格&quot;&gt;&lt;a href=&quot;#表格&quot; class=&quot;headerlink&quot; title=&quot;表格&quot;&gt;&lt;/a&gt;表格&lt;/h2&gt;&lt;p&gt;A simple table looks like this:&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;// js to oc&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;JSContext *context = [[JSContext alloc] init];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;[context evaluateScript:@&amp;quot;var num = 5 + 5&amp;quot;];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;[context evaluateScript:@&amp;quot;var names = [&amp;apos;Lucy&amp;apos;, &amp;apos;Lance&amp;apos;, &amp;apos;Lily&amp;apos;]&amp;quot;];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;[context evaluateScript:@&amp;quot;var triple = function(value) {return value * 3}&amp;quot;];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;JSValue *tripleNum = [context evaluateScript:@&amp;quot;triple(num)&amp;quot;];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;NSLog(@&amp;quot;triple num = %lf&amp;quot;, tripleNum.toDouble);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;&amp;#x6587;&amp;#x672C;&amp;#x6BB5;&amp;#x5757;&quot;&gt;&lt;a href=&quot;#&amp;#x6587;&amp;#x672C;&amp;#x6BB5;&amp;#x5757;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x6587;&amp;#x672C;&amp;#x6BB5;&amp;#x5757;&quot;&gt;&lt;/a&gt;&amp;#x6587;&amp;#x672C;&amp;#x6BB5;&amp;#x5757;&lt;/h3&gt;&lt;p&gt;&amp;#x6BCF;&amp;#x884C;&amp;#x524D;&amp;#x9762;&amp;#x52A0;&amp;#x56DB;&amp;#x4E2A;&amp;#x7A7A;&amp;#x683C;&amp;#x6216;&amp;#x8005;&amp;#x4E00;&amp;#x4E2A;tab&amp;#x3002;&amp;#x7C7B;&amp;#x4F3C;&amp;#x4E8E;&amp;#x6BB5;&amp;#x4EE3;&amp;#x7801;&amp;#x5757;&amp;#xFF0C;&amp;#x4F46;&amp;#x662F;&amp;#x5728;&amp;#x6BCF;&amp;#x884C;&amp;#x524D;&amp;#x9762;&amp;#x4E0D;&amp;#x4F1A;&amp;#x6709;&amp;#x884C;&amp;#x6570;&amp;#x3002;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;PHP&amp;#x662F;&amp;#x4E16;&amp;#x754C;&amp;#x4E0A;&amp;#x6700;&amp;#x597D;&amp;#x7684;&amp;#x8BED;&amp;#x8A00;&amp;#xFF1B;
+Java&amp;#x662F;&amp;#x4E16;&amp;#x754C;&amp;#x4E0A;&amp;#x6700;&amp;#x597D;&amp;#x7684;&amp;#x8BED;&amp;#x8A00;&amp;#x3002;
+Objective-C&amp;#x662F;&amp;#x4E16;&amp;#x754C;&amp;#x4E0A;&amp;#x6700;&amp;#x597D;&amp;#x7684;&amp;#x8BED;&amp;#x8A00;;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;&amp;#x8868;&amp;#x683C;&quot;&gt;&lt;a href=&quot;#&amp;#x8868;&amp;#x683C;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x8868;&amp;#x683C;&quot;&gt;&lt;/a&gt;&amp;#x8868;&amp;#x683C;&lt;/h2&gt;&lt;p&gt;A simple table looks like this:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;First Header | Second Header | Third Header
 ------------ | ------------- | ------------
 Content Cell | Content Cell  | Content Cell
@@ -77,7 +78,7 @@ Content Cell | Content Cell  | Content Cell
 :----------- | :-----------: | -----------:
 Left         | Center        | Right
 Left         | Center        | Right
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;效果如下：&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&amp;#x6548;&amp;#x679C;&amp;#x5982;&amp;#x4E0B;&amp;#xFF1A;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -103,48 +104,19 @@ Left         | Center        | Right
     
     <summary type="html">
     
-      &lt;p&gt;简单记录下Markdown基础语法。&lt;/p&gt;
-&lt;h2 id=&quot;标题&quot;&gt;&lt;a href=&quot;#标题&quot; class=&quot;headerlink&quot; title=&quot;标题&quot;&gt;&lt;/a&gt;标题&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;# 一级标题
-## 二级标题
-### 三级标题
-#### 四级标题
-##
+      &lt;p&gt;&amp;#x7B80;&amp;#x5355;&amp;#x8BB0;&amp;#x5F55;&amp;#x4E0B;Markdown&amp;#x57FA;&amp;#x7840;&amp;#x8BED;&amp;#x6CD5;&amp;#x3002;&lt;/p&gt;
+&lt;h2 id=&quot;&amp;#x6807;&amp;#x9898;&quot;&gt;&lt;a href=&quot;#&amp;#x6807;&amp;#x9898;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x6807;&amp;#x9898;&quot;&gt;&lt;/a&gt;&amp;#x6807;&amp;#x9898;&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;# &amp;#x4E00;&amp;#x7EA7;&amp;#x6807;&amp;#x9898;
+## &amp;#x4E8C;&amp;#x7EA7;&amp;#x6807;&amp;#x9898;
+### &amp;#x4E09;&amp;#x7EA7;&amp;#x6807;&amp;#x9898;
+#### &amp;#x56DB;&amp;#x7EA7;&amp;#x6807;&amp;#x9898;
+##### &amp;#x4E94;&amp;#x7EA7;&amp;#x6807;&amp;#x9898;
+###### &amp;#x516D;&amp;#x7EA7;&amp;#x6807;&amp;#x9898;
+&lt;/code&gt;&lt;/pre&gt;
     
     </summary>
     
     
       <category term="Markdown" scheme="https://jianglan-dev.github.io/tags/Markdown/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://jianglan-dev.github.io/2016/06/05/HelloWorld/"/>
-    <id>https://jianglan-dev.github.io/2016/06/05/HelloWorld/</id>
-    <published>2016-06-04T19:44:14.000Z</published>
-    <updated>2016-06-05T14:38:58.000Z</updated>
-    
-    <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Generate-static-files&quot;&gt;&lt;a href=&quot;#Generate-static-files&quot; class=&quot;headerlink&quot; title=&quot;Generate static files&quot;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Deploy-to-remote-sites&quot;&gt;&lt;a href=&quot;#Deploy-to-remote-sites&quot; class=&quot;headerlink&quot; title=&quot;Deploy to remote sites&quot;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/deployment.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-    
-    </summary>
-    
-    
-      <category term="Hexo" scheme="https://jianglan-dev.github.io/tags/Hexo/"/>
-    
-      <category term="Blog" scheme="https://jianglan-dev.github.io/tags/Blog/"/>
     
   </entry>
   
