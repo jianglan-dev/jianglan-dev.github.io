@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jianglan-dev.github.io/"/>
-  <updated>2016-06-08T16:23:53.000Z</updated>
+  <updated>2016-06-18T11:17:54.000Z</updated>
   <id>https://jianglan-dev.github.io/</id>
   
   <author>
@@ -14,6 +14,252 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AutoLayout之Masonry的使用</title>
+    <link href="https://jianglan-dev.github.io/2016/06/15/AutoLayout%E4%B9%8BMasonry%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+    <id>https://jianglan-dev.github.io/2016/06/15/AutoLayout之Masonry的使用/</id>
+    <published>2016-06-15T15:26:37.000Z</published>
+    <updated>2016-06-18T11:17:54.000Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;AutoLayout&amp;#x7B80;&amp;#x4ECB;&quot;&gt;&lt;a href=&quot;#AutoLayout&amp;#x7B80;&amp;#x4ECB;&quot; class=&quot;headerlink&quot; title=&quot;AutoLayout&amp;#x7B80;&amp;#x4ECB;&quot;&gt;&lt;/a&gt;AutoLayout&amp;#x7B80;&amp;#x4ECB;&lt;/h2&gt;&lt;h3 id=&quot;&amp;#x542B;&amp;#x4E49;&quot;&gt;&lt;a href=&quot;#&amp;#x542B;&amp;#x4E49;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x542B;&amp;#x4E49;&quot;&gt;&lt;/a&gt;&amp;#x542B;&amp;#x4E49;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;AutoLayout&amp;#x662F;&amp;#x4E00;&amp;#x79CD;&amp;#x57FA;&amp;#x4E8E;&amp;#x7EA6;&amp;#x675F;&amp;#x7684;&amp;#xFF0C;&amp;#x63CF;&amp;#x8FF0;&amp;#x6027;&amp;#x7684;&amp;#x5E03;&amp;#x5C40;&amp;#x7CFB;&amp;#x7EDF;&amp;#x3002;&lt;p&gt;( Auto Layout is a Constraint-Based, Descriptive Layout System.)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&amp;#x4F7F;&amp;#x7528;&amp;#x7EA6;&amp;#x675F;&amp;#x6761;&amp;#x4EF6;&amp;#x6765;&amp;#x63CF;&amp;#x8FF0;&amp;#x5E03;&amp;#x5C40;&amp;#x3002;view&amp;#x7684;frame&amp;#x4F1A;&amp;#x4F9D;&amp;#x636E;&amp;#x8FD9;&amp;#x4E9B;&amp;#x7EA6;&amp;#x675F;&amp;#x6765;&amp;#x81EA;&amp;#x52A8;&amp;#x8FDB;&amp;#x884C;&amp;#x8BA1;&amp;#x7B97;&amp;#x3002;&lt;p&gt;(Describe the layout with constraints, and frames are calculated automatically.)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;&amp;#x4E0E;&amp;#x8BBE;&amp;#x7F6E;frame&amp;#x65B9;&amp;#x5F0F;&amp;#x76F8;&amp;#x6BD4;&amp;#x7684;&amp;#x4F18;&amp;#x70B9;&quot;&gt;&lt;a href=&quot;#&amp;#x4E0E;&amp;#x8BBE;&amp;#x7F6E;frame&amp;#x65B9;&amp;#x5F0F;&amp;#x76F8;&amp;#x6BD4;&amp;#x7684;&amp;#x4F18;&amp;#x70B9;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x4E0E;&amp;#x8BBE;&amp;#x7F6E;frame&amp;#x65B9;&amp;#x5F0F;&amp;#x76F8;&amp;#x6BD4;&amp;#x7684;&amp;#x4F18;&amp;#x70B9;&quot;&gt;&lt;/a&gt;&amp;#x4E0E;&amp;#x8BBE;&amp;#x7F6E;frame&amp;#x65B9;&amp;#x5F0F;&amp;#x76F8;&amp;#x6BD4;&amp;#x7684;&amp;#x4F18;&amp;#x70B9;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&amp;#x591A;&amp;#x6570;&amp;#x60C5;&amp;#x51B5;&amp;#x4E0B;&amp;#x65CB;&amp;#x8F6C;&amp;#x5C4F;&amp;#x5E55;&amp;#x4E0D;&amp;#x7528;&amp;#x518D;&amp;#x505A;&amp;#x989D;&amp;#x5916;&amp;#x7684;&amp;#x5904;&amp;#x7406;&lt;/li&gt;
+&lt;li&gt;&amp;#x66F4;&amp;#x5BB9;&amp;#x6613;&amp;#x9002;&amp;#x914D;&amp;#x4E0D;&amp;#x540C;&amp;#x5C3A;&amp;#x5BF8;&amp;#x7684;&amp;#x5C4F;&amp;#x5E55;&lt;/li&gt;
+&lt;li&gt;&amp;#x4E0A;&amp;#x624B;&amp;#x540E;&amp;#x5E03;&amp;#x5C40;&amp;#x975E;&amp;#x5E38;&amp;#x7B80;&amp;#x5355;&amp;#x5BB9;&amp;#x6613;&amp;#xFF0C;&amp;#x5E03;&amp;#x5C40;&amp;#x903B;&amp;#x8F91;&amp;#x66F4;&amp;#x6E05;&amp;#x6670;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h3 id=&quot;&amp;#x7528;&amp;#x6CD5;&quot;&gt;&lt;a href=&quot;#&amp;#x7528;&amp;#x6CD5;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x7528;&amp;#x6CD5;&quot;&gt;&lt;/a&gt;&amp;#x7528;&amp;#x6CD5;&lt;/h3&gt;&lt;p&gt;&amp;#x5728;iOS6&amp;#x4E4B;&amp;#x524D;&amp;#xFF0C;&amp;#x5173;&amp;#x4E8E;&amp;#x5C4F;&amp;#x5E55;&amp;#x65CB;&amp;#x8F6C;&amp;#x7684;&amp;#x9002;&amp;#x914D;&amp;#x548C;iPhone&amp;#xFF0C;iPad&amp;#x5C4F;&amp;#x5E55;&amp;#x7684;&amp;#x81EA;&amp;#x52A8;&amp;#x9002;&amp;#x914D;&amp;#xFF0C;&amp;#x57FA;&amp;#x672C;&amp;#x90FD;&amp;#x662F;&amp;#x7531;AutoresizingMask&amp;#x6765;&amp;#x5B8C;&amp;#x6210;&amp;#x7684;&amp;#x3002;&amp;#x4F46;&amp;#x662F;&amp;#x968F;&amp;#x7740;&amp;#x5927;&amp;#x5BB6;&amp;#x5BF9;iOS App&amp;#x7684;&amp;#x8981;&amp;#x6C42;&amp;#x8D8A;&amp;#x6765;&amp;#x8D8A;&amp;#x9AD8;&amp;#xFF0C;&amp;#x4EE5;&amp;#x53CA;&amp;#x4ECA;&amp;#x540E;&amp;#x53EF;&amp;#x80FD;&amp;#x51FA;&amp;#x73B0;&amp;#x7684;&amp;#x591A;&amp;#x79CD;&amp;#x5C4F;&amp;#x5E55;&amp;#x548C;&amp;#x5206;&amp;#x8FA8;&amp;#x7387;&amp;#x7684;&amp;#x8BBE;&amp;#x5907;&amp;#x6765;&amp;#x8BF4;&amp;#xFF0C;AutoresizingMask&amp;#x663E;&amp;#x5F97;&amp;#x6709;&amp;#x4E9B;&amp;#x843D;&amp;#x4F0D;&amp;#x548C;&amp;#x8FDF;&amp;#x949D;&amp;#x4E86;&amp;#x3002;&lt;/p&gt;
+&lt;p&gt;iOS6&amp;#x4EE5;&amp;#x540E;&amp;#xFF0C;AutoLayout&amp;#x51FA;&amp;#x73B0;&amp;#xFF0C;&amp;#x5176;&amp;#x53EF;&amp;#x4EE5;&amp;#x5B8C;&amp;#x6210;&amp;#x6240;&amp;#x6709;&amp;#x539F;&amp;#x6765;AutoresizingMask&amp;#x80FD;&amp;#x5B8C;&amp;#x6210;&amp;#x7684;&amp;#x5DE5;&amp;#x4F5C;&amp;#xFF0C;&amp;#x540C;&amp;#x65F6;&amp;#x8FD8;&amp;#x80FD;&amp;#x591F;&amp;#x80DC;&amp;#x4EFB;&amp;#x4E00;&amp;#x4E9B;&amp;#x539F;&amp;#x6765;&amp;#x65E0;&amp;#x6CD5;&amp;#x5B8C;&amp;#x6210;&amp;#x7684;&amp;#x4EFB;&amp;#x52A1;&amp;#x3002;&lt;/p&gt;
+&lt;p&gt;&amp;#x4F7F;&amp;#x7528;AutoLayout&amp;#x65F6;&amp;#xFF0C;&amp;#x9700;&amp;#x8981;&amp;#x7981;&amp;#x7528;AutoresizingMask&amp;#xFF1A;&lt;br&gt;&lt;code&gt;view.translatesAutoresizingMaskIntoConstraints = NO;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;AutoLayout&amp;#x4E2D;&amp;#x7EA6;&amp;#x675F;&amp;#x5BF9;&amp;#x5E94;&amp;#x7684;&amp;#x7C7B;&amp;#x4E3A; NSLayoutConstraint&amp;#xFF0C;&amp;#x4E00;&amp;#x4E2A; NSLayoutConstraint &amp;#x5B9E;&amp;#x4F8B;&amp;#x4EE3;&amp;#x8868;&amp;#x4E00;&amp;#x6761;&amp;#x7EA6;&amp;#x675F;&amp;#x3002;&lt;/p&gt;
+&lt;p&gt;NSLayoutConstraint&amp;#x6709;2&amp;#x4E2A;&amp;#x7C7B;&amp;#x65B9;&amp;#x6CD5;&amp;#x7528;&amp;#x4E8E;&amp;#x521B;&amp;#x5EFA;&amp;#x7EA6;&amp;#x675F;&amp;#x5B9E;&amp;#x4F8B;:&lt;/p&gt;
+&lt;h4 id=&quot;1&amp;#x3001;&amp;#x76F4;&amp;#x767D;&amp;#x5F0F;&amp;#x65B9;&amp;#x6CD5;&quot;&gt;&lt;a href=&quot;#1&amp;#x3001;&amp;#x76F4;&amp;#x767D;&amp;#x5F0F;&amp;#x65B9;&amp;#x6CD5;&quot; class=&quot;headerlink&quot; title=&quot;1&amp;#x3001;&amp;#x76F4;&amp;#x767D;&amp;#x5F0F;&amp;#x65B9;&amp;#x6CD5;&quot;&gt;&lt;/a&gt;1&amp;#x3001;&amp;#x76F4;&amp;#x767D;&amp;#x5F0F;&amp;#x65B9;&amp;#x6CD5;&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;+ (instancetype)constraintWithItem:(id)view1
+                     attribute:(NSLayoutAttribute)attr1
+                     relatedBy:(NSLayoutRelation)relation
+                        toItem:(id)view2
+                     attribute:(NSLayoutAttribute)attr2
+                    multiplier:(CGFloat)multiplier
+                      constant:(CGFloat)c;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&amp;#x4EE3;&amp;#x8868;&amp;#x7684;&amp;#x542B;&amp;#x4E49;&amp;#x4E3A;&amp;#xFF1A;&lt;code&gt;view1.attr1 = view2.attr2 * multiplier + constant&lt;/code&gt;&amp;#xFF0C;&amp;#x591F;&amp;#x76F4;&amp;#x767D;&amp;#x5427;&amp;#xFF01;&lt;/p&gt;
+&lt;h4 id=&quot;2&amp;#x3001;VFL&amp;#x5F0F;&amp;#x65B9;&amp;#x6CD5;&quot;&gt;&lt;a href=&quot;#2&amp;#x3001;VFL&amp;#x5F0F;&amp;#x65B9;&amp;#x6CD5;&quot; class=&quot;headerlink&quot; title=&quot;2&amp;#x3001;VFL&amp;#x5F0F;&amp;#x65B9;&amp;#x6CD5;&quot;&gt;&lt;/a&gt;2&amp;#x3001;VFL&amp;#x5F0F;&amp;#x65B9;&amp;#x6CD5;&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;+ (NSArray *)constraintsWithVisualFormat:(NSString *)format
+                             options:(NSLayoutFormatOptions)opts
+                             metrics:(NSDictionary *)metrics
+                               views:(NSDictionary *)views;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&amp;#x8BE5;&amp;#x65B9;&amp;#x6CD5;&amp;#x4F7F;&amp;#x7528;&amp;#x53EF;&amp;#x89C6;&amp;#x5316;&amp;#x683C;&amp;#x5F0F;&amp;#x8BED;&amp;#x8A00;(VFL)&amp;#x5E03;&amp;#x5C40;&amp;#x3002;&lt;/p&gt;
+&lt;h4 id=&quot;&amp;#x5B9E;&amp;#x4F8B;&quot;&gt;&lt;a href=&quot;#&amp;#x5B9E;&amp;#x4F8B;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x5B9E;&amp;#x4F8B;&quot;&gt;&lt;/a&gt;&amp;#x5B9E;&amp;#x4F8B;&lt;/h4&gt;&lt;p&gt;&amp;#x4E0B;&amp;#x9762;&amp;#x6211;&amp;#x4EEC;&amp;#x5206;&amp;#x522B;&amp;#x4F7F;&amp;#x7528;&amp;#x4EE5;&amp;#x4E0A;2&amp;#x79CD;&amp;#x65B9;&amp;#x6CD5;&amp;#x8FDB;&amp;#x884C;&amp;#x5982;&amp;#x4E0B;&amp;#x5E03;&amp;#x5C40;&amp;#xFF1A;&lt;br&gt;&lt;code&gt;&amp;#x5B50;view&amp;#x5728;&amp;#x7236;view&amp;#x4E2D;&amp;#xFF0C;&amp;#x5176;&amp;#x4E2D;&amp;#x5B50;view&amp;#x7684;&amp;#x4E0A;&amp;#x4E0B;&amp;#x5DE6;&amp;#x53F3;&amp;#x8FB9;&amp;#x7F18;&amp;#x90FD;&amp;#x79BB;&amp;#x7236;view&amp;#x7684;&amp;#x8FB9;&amp;#x7F18;50 point&lt;/code&gt;&lt;br&gt;&lt;img src=&quot;/2016/06/15/AutoLayout&amp;#x4E4B;Masonry&amp;#x7684;&amp;#x4F7F;&amp;#x7528;/01.png&quot; alt=&quot;01&quot;&gt;&lt;/p&gt;
+&lt;h5 id=&quot;&amp;#x76F4;&amp;#x767D;&amp;#x5F0F;&amp;#x65B9;&amp;#x6CD5;&amp;#x4EE3;&amp;#x7801;&quot;&gt;&lt;a href=&quot;#&amp;#x76F4;&amp;#x767D;&amp;#x5F0F;&amp;#x65B9;&amp;#x6CD5;&amp;#x4EE3;&amp;#x7801;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x76F4;&amp;#x767D;&amp;#x5F0F;&amp;#x65B9;&amp;#x6CD5;&amp;#x4EE3;&amp;#x7801;&quot;&gt;&lt;/a&gt;&amp;#x76F4;&amp;#x767D;&amp;#x5F0F;&amp;#x65B9;&amp;#x6CD5;&amp;#x4EE3;&amp;#x7801;&lt;/h5&gt;&lt;p&gt;&amp;#x76F4;&amp;#x767D;&amp;#x5F0F;&amp;#x65B9;&amp;#x6CD5;&amp;#x5E03;&amp;#x5C40;&amp;#xFF0C;&amp;#x4EE3;&amp;#x7801;&amp;#x5197;&amp;#x957F;&amp;#xFF0C;&amp;#x4E0D;&amp;#x6613;&amp;#x7EF4;&amp;#x62A4;&amp;#x3002;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;self.view.backgroundColor = [UIColor blackColor];
+UIView *superView = self.view;
+
+UIView *subView = [[UIView alloc] init];
+subView.translatesAutoresizingMaskIntoConstraints = NO;
+subView.backgroundColor = [UIColor redColor];
+[self.view addSubview:subView];
+
+NSLayoutConstraint *topConstraint = [NSLayoutConstraint constraintWithItem:subView
+                                                                 attribute:NSLayoutAttributeTop
+                                                                 relatedBy:NSLayoutRelationEqual
+                                                                    toItem:superView
+                                                                 attribute:NSLayoutAttributeTop
+                                                                multiplier:1.0
+                                                                  constant:50];
+
+NSLayoutConstraint *bottomConstraint = [NSLayoutConstraint constraintWithItem:subView
+                                                                 attribute:NSLayoutAttributeBottom
+                                                                 relatedBy:NSLayoutRelationEqual
+                                                                    toItem:superView
+                                                                 attribute:NSLayoutAttributeBottom
+                                                                multiplier:1.0
+                                                                  constant:-50];
+
+NSLayoutConstraint *leftConstraint = [NSLayoutConstraint constraintWithItem:subView
+                                                                 attribute:NSLayoutAttributeLeft
+                                                                 relatedBy:NSLayoutRelationEqual
+                                                                    toItem:superView
+                                                                 attribute:NSLayoutAttributeLeft
+                                                                multiplier:1.0
+                                                                  constant:50];
+
+NSLayoutConstraint *rightConstraint = [NSLayoutConstraint constraintWithItem:subView
+                                                                 attribute:NSLayoutAttributeRight
+                                                                 relatedBy:NSLayoutRelationEqual
+                                                                    toItem:superView
+                                                                 attribute:NSLayoutAttributeRight
+                                                                multiplier:1.0
+                                                                  constant:-50];
+
+[superView addConstraints:@[topConstraint, bottomConstraint, leftConstraint, rightConstraint]];
+&lt;/code&gt;&lt;/pre&gt;&lt;h5 id=&quot;VFL&amp;#x5F0F;&amp;#x65B9;&amp;#x6CD5;&amp;#x4EE3;&amp;#x7801;&quot;&gt;&lt;a href=&quot;#VFL&amp;#x5F0F;&amp;#x65B9;&amp;#x6CD5;&amp;#x4EE3;&amp;#x7801;&quot; class=&quot;headerlink&quot; title=&quot;VFL&amp;#x5F0F;&amp;#x65B9;&amp;#x6CD5;&amp;#x4EE3;&amp;#x7801;&quot;&gt;&lt;/a&gt;VFL&amp;#x5F0F;&amp;#x65B9;&amp;#x6CD5;&amp;#x4EE3;&amp;#x7801;&lt;/h5&gt;&lt;p&gt;VFL&amp;#x5F0F;&amp;#x65B9;&amp;#x6CD5;&amp;#x5E03;&amp;#x5C40;&amp;#xFF0C;&amp;#x91C7;&amp;#x7528;ascll&amp;#x5B57;&amp;#x7B26;&amp;#x63CF;&amp;#x8FF0;&amp;#x7EA6;&amp;#x675F;&amp;#xFF0C;&amp;#x5404;&amp;#x79CD;&amp;#x5751;&amp;#xFF0C;&amp;#x4E14;&amp;#x4E0D;&amp;#x6613;&amp;#x7406;&amp;#x89E3;&amp;#x3002;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;self.view.backgroundColor = [UIColor blackColor];
+UIView *superView = self.view;
+
+UIView *subView = [[UIView alloc] init];
+subView.translatesAutoresizingMaskIntoConstraints = NO;
+subView.backgroundColor = [UIColor redColor];
+[self.view addSubview:subView];
+
+NSDictionary *views = NSDictionaryOfVariableBindings(subView);
+NSArray *constraintsH = [NSLayoutConstraint constraintsWithVisualFormat:@&amp;quot;H:|-50-[subView]-50-|&amp;quot;
+                                                                options:0
+                                                                metrics:nil
+                                                                  views:views];
+NSArray *constraintsV = [NSLayoutConstraint constraintsWithVisualFormat:@&amp;quot;V:|-50-[subView]-50-|&amp;quot;
+                                                                options:0
+                                                                metrics:nil
+                                                                  views:views];
+[superView addConstraints:constraintsH];
+[superView addConstraints:constraintsV];
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;p&gt;&amp;#x663E;&amp;#x7136;&amp;#xFF0C;&amp;#x65E0;&amp;#x8BBA;&amp;#x4F7F;&amp;#x7528;&amp;#x54EA;&amp;#x79CD;&amp;#x65B9;&amp;#x6CD5;&amp;#x6765;&amp;#x7F16;&amp;#x5199;&amp;#x5E03;&amp;#x5C40;&amp;#x4EE3;&amp;#x7801;&amp;#x90FD;&amp;#x6BD4;&amp;#x8F83;&amp;#x9EBB;&amp;#x70E6;&amp;#xFF0C;&amp;#x597D;&amp;#x6D88;&amp;#x606F;&amp;#x662F;&amp;#x6709;&amp;#x5927;&amp;#x91CF;&amp;#x7684;&amp;#x5F00;&amp;#x6E90;&amp;#x5E93;&amp;#x5E2E;&amp;#x52A9;&amp;#x6211;&amp;#x4EEC;&amp;#x63D0;&amp;#x9AD8;&amp;#x7F16;&amp;#x5199;&amp;#x5E03;&amp;#x5C40;&amp;#x4EE3;&amp;#x7801;&amp;#x7684;&amp;#x6548;&amp;#x7387;&amp;#x3002;&lt;/p&gt;
+&lt;h2 id=&quot;&amp;#x5F00;&amp;#x6E90;&amp;#x5E93;Masonry&quot;&gt;&lt;a href=&quot;#&amp;#x5F00;&amp;#x6E90;&amp;#x5E93;Masonry&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x5F00;&amp;#x6E90;&amp;#x5E93;Masonry&quot;&gt;&lt;/a&gt;&amp;#x5F00;&amp;#x6E90;&amp;#x5E93;Masonry&lt;/h2&gt;&lt;h3 id=&quot;&amp;#x5E38;&amp;#x7528;&amp;#x7684;&amp;#x5F00;&amp;#x6E90;&amp;#x5E93;&quot;&gt;&lt;a href=&quot;#&amp;#x5E38;&amp;#x7528;&amp;#x7684;&amp;#x5F00;&amp;#x6E90;&amp;#x5E93;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x5E38;&amp;#x7528;&amp;#x7684;&amp;#x5F00;&amp;#x6E90;&amp;#x5E93;&quot;&gt;&lt;/a&gt;&amp;#x5E38;&amp;#x7528;&amp;#x7684;&amp;#x5F00;&amp;#x6E90;&amp;#x5E93;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Masonry&lt;/li&gt;
+&lt;li&gt;PureLayout(&amp;#x524D;UIView-AutoLayout)&lt;/li&gt;
+&lt;li&gt;FLKAutoLayout&lt;/li&gt;
+&lt;li&gt;KeepLayout&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Masonry&amp;#x7B80;&amp;#x4ECB;&quot;&gt;&lt;a href=&quot;#Masonry&amp;#x7B80;&amp;#x4ECB;&quot; class=&quot;headerlink&quot; title=&quot;Masonry&amp;#x7B80;&amp;#x4ECB;&quot;&gt;&lt;/a&gt;Masonry&amp;#x7B80;&amp;#x4ECB;&lt;/h3&gt;&lt;p&gt;Masonry&amp;#x662F;&amp;#x4E00;&amp;#x4E2A;&amp;#x8F7B;&amp;#x91CF;&amp;#x7EA7;&amp;#x7684;&amp;#x5E03;&amp;#x5C40;&amp;#x6846;&amp;#x67B6;&amp;#xFF0C;&amp;#x62E5;&amp;#x6709;&amp;#x81EA;&amp;#x5DF1;&amp;#x7684;&amp;#x63CF;&amp;#x8FF0;&amp;#x8BED;&amp;#x6CD5;&amp;#xFF0C;&amp;#x91C7;&amp;#x7528;&amp;#x66F4;&amp;#x4F18;&amp;#x96C5;&amp;#x7684;&amp;#x94FE;&amp;#x5F0F;&amp;#x8BED;&amp;#x6CD5;&amp;#x5C01;&amp;#x88C5;&amp;#x81EA;&amp;#x52A8;&amp;#x5E03;&amp;#x5C40;&amp;#xFF0C;&amp;#x7B80;&amp;#x6D01;&amp;#x660E;&amp;#x4E86;&amp;#x5E76;&amp;#x5177;&amp;#x6709;&amp;#x9AD8;&amp;#x53EF;&amp;#x8BFB;&amp;#x6027;&amp;#xFF0C;&amp;#x800C;&amp;#x4E14;&amp;#x540C;&amp;#x65F6;&amp;#x652F;&amp;#x6301; iOS &amp;#x548C; Max OS X&amp;#x3002;Masonry&amp;#x662F;&amp;#x4E00;&amp;#x4E2A;&amp;#x7528;&amp;#x4EE3;&amp;#x7801;&amp;#x5199;iOS&amp;#x6216;OS&amp;#x754C;&amp;#x9762;&amp;#x7684;&amp;#x5E93;&amp;#xFF0C;&amp;#x53EF;&amp;#x4EE5;&amp;#x4EE3;&amp;#x66FF;AutoLayout&amp;#x3002;Masonry&amp;#x7684;Swift&amp;#x7248;&amp;#x672C;&amp;#x540D;&amp;#x53EB;SnapKit&amp;#xFF0C;&amp;#x652F;&amp;#x6301;iOS7&amp;#xFF0C;OS X 10.9&amp;#x4EE5;&amp;#x4E0A;&amp;#x3002;&lt;/p&gt;
+&lt;p&gt;&amp;#x5BF9;&amp;#x4E8E;&amp;#x4E0A;&amp;#x6587;&amp;#x4E2D;&amp;#x7684;&amp;#x5E03;&amp;#x5C40;&amp;#x6548;&amp;#x679C;&amp;#xFF0C;&amp;#x4F7F;&amp;#x7528;Masonry&amp;#x5E03;&amp;#x5C40;&amp;#x7684;&amp;#x4EE3;&amp;#x7801;&amp;#x5982;&amp;#x4E0B;&amp;#xFF1A;&amp;#xFF08;&amp;#x7B80;&amp;#x6D01;&amp;#x3001;&amp;#x76F4;&amp;#x89C2;&amp;#xFF09;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;self.view.backgroundColor = [UIColor blackColor];
+UIView *superView = self.view;
+
+UIView *subView = [[UIView alloc] init];
+subView.translatesAutoresizingMaskIntoConstraints = NO;
+subView.backgroundColor = [UIColor redColor];
+[self.view addSubview:subView];
+
+[subView mas_makeConstraints:^(MASConstraintMaker *make) {
+    make.edges.equalTo(superView).with.insets(UIEdgeInsetsMake(50, 50, 50, 50 ) );
+}];
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;Masonry&amp;#x7528;&amp;#x6CD5;&quot;&gt;&lt;a href=&quot;#Masonry&amp;#x7528;&amp;#x6CD5;&quot; class=&quot;headerlink&quot; title=&quot;Masonry&amp;#x7528;&amp;#x6CD5;&quot;&gt;&lt;/a&gt;Masonry&amp;#x7528;&amp;#x6CD5;&lt;/h3&gt;&lt;p&gt;Masonry&amp;#x5171;&amp;#x4E09;&amp;#x4E2A;&amp;#x5E03;&amp;#x5C40;&amp;#x65B9;&amp;#x6CD5;&amp;#xFF1A;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;mas_makeConstraints&amp;#xFF1B;&amp;#x6DFB;&amp;#x52A0;&amp;#x7EA6;&amp;#x675F;&lt;/li&gt;
+&lt;li&gt;mas_updateConstaints&amp;#xFF1B;&amp;#x66F4;&amp;#x65B0;&amp;#x7EA6;&amp;#x675F;&amp;#xFF0C;&amp;#x53EA;&amp;#x66F4;&amp;#x65B0;&amp;#x7EA6;&amp;#x675F;&amp;#x7684;&amp;#x5E38;&amp;#x91CF;&amp;#x503C;&amp;#x65F6;&amp;#x4F7F;&amp;#x7528;&lt;/li&gt;
+&lt;li&gt;mas_remakeConstaints&amp;#xFF1B;&amp;#x66F4;&amp;#x65B0;&amp;#x7EA6;&amp;#x675F;&amp;#xFF0C;&amp;#x4F46;&amp;#x662F;&amp;#x4E4B;&amp;#x524D;&amp;#x6240;&amp;#x6709;&amp;#x7EA6;&amp;#x675F;&amp;#x4F1A;&amp;#x88AB;&amp;#x79FB;&amp;#x9664;&amp;#x6389;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;&amp;#x57FA;&amp;#x672C;&amp;#x4F7F;&amp;#x7528;&amp;#x65B9;&amp;#x6CD5;&quot;&gt;&lt;a href=&quot;#&amp;#x57FA;&amp;#x672C;&amp;#x4F7F;&amp;#x7528;&amp;#x65B9;&amp;#x6CD5;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x57FA;&amp;#x672C;&amp;#x4F7F;&amp;#x7528;&amp;#x65B9;&amp;#x6CD5;&quot;&gt;&lt;/a&gt;&amp;#x57FA;&amp;#x672C;&amp;#x4F7F;&amp;#x7528;&amp;#x65B9;&amp;#x6CD5;&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;[subView mas_makeConstraints:^(MASConstraintMaker *make) {
+    make.left.equalTo(superView.mas_left).with.offset(50);
+    make.right.equalTo(superView.mas_right).with.offset(-50);
+    make.top.equalTo(superView.mas_top).with.offset(50);
+    make.height.equalTo(superView).with.offset(-100);
+}];
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&amp;#x5176;&amp;#x4E2D;&amp;#xFF0C;&lt;br&gt;maker&amp;#x7684;&amp;#x5C5E;&amp;#x6027;&amp;#x5305;&amp;#x62EC;&amp;#xFF1A;left&amp;#x3001;top&amp;#x3001;right&amp;#x3001;bottom&amp;#x3001;leading&amp;#x3001;trailing&amp;#x3001;width&amp;#x3001;height&amp;#x3001;centerX&amp;#x3001;centerY&amp;#x3001;baseLine&amp;#x53CA;&amp;#x590D;&amp;#x5408;&amp;#x5C5E;&amp;#x6027;edges&amp;#x3001;size&amp;#x3001;center&amp;#x3002;&lt;/p&gt;
+&lt;p&gt;&amp;#x4E0E;equalTo&amp;#x7C7B;&amp;#x4F3C;&amp;#x7684;&amp;#x65B9;&amp;#x6CD5;&amp;#x8FD8;&amp;#x6709;&amp;#xFF1A;lessThanOrEqualTo&amp;#x3001;greaterThanOrEqualTo&amp;#x3002;&lt;/p&gt;
+&lt;p&gt;view&amp;#x7684;&amp;#x5C5E;&amp;#x6027;&amp;#x5982;&amp;#x4E0B;&amp;#xFF1A;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;MASViewAttribute&lt;/th&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;NSLayoutAttribute&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;view.mas_left&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;NSLayoutAttributeLeft&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;view.mas_right&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;NSLayoutAttributeRight&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;view.mas_top&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;NSLayoutAttributeTop&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;view.mas_bottom&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;NSLayoutAttributeBottom&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;view.mas_leading&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;NSLayoutAttributeLeading&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;view.mas_trailing&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;NSLayoutAttributeTrailing&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;view.mas_width&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;NSLayoutAttributeWidth&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;view.mas_height&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;NSLayoutAttributeHeight&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;view.mas_centerX&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;NSLayoutAttributeCenterX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;view.mas_centerY&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;NSLayoutAttributeCenterY&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;view.mas_baseline&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;NSLayoutAttributeBaseline&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&quot;&amp;#x5E38;&amp;#x7528;&amp;#x6848;&amp;#x4F8B;&quot;&gt;&lt;a href=&quot;#&amp;#x5E38;&amp;#x7528;&amp;#x6848;&amp;#x4F8B;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x5E38;&amp;#x7528;&amp;#x6848;&amp;#x4F8B;&quot;&gt;&lt;/a&gt;&amp;#x5E38;&amp;#x7528;&amp;#x6848;&amp;#x4F8B;&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;//these two constraints are exactly the same
+make.left.greaterThanOrEqualTo(label);
+make.left.greaterThanOrEqualTo(label.mas_left);
+
+//width &amp;gt;= 200 &amp;amp;&amp;amp; width &amp;lt;= 400
+make.width.greaterThanOrEqualTo(@200);
+make.width.lessThanOrEqualTo(@400)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&amp;#x901A;&amp;#x5E38;&amp;#xFF0C;&amp;#x5F53;&amp;#x5E38;&amp;#x91CF;&amp;#x548C;&amp;#x7ED3;&amp;#x6784;&amp;#x4F53;&amp;#x4F5C;&amp;#x4E3A;&amp;#x53C2;&amp;#x6570;&amp;#x65F6;&amp;#xFF0C;&amp;#x4F7F;&amp;#x7528;&amp;#x201C;mas_&amp;#x201D;&amp;#x524D;&amp;#x7F00;&amp;#x7684;&amp;#x5173;&amp;#x7CFB;&amp;#x65B9;&amp;#x6CD5;&amp;#xFF1A;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;make.top.mas_equalTo(42);
+make.height.mas_equalTo(20);
+make.size.mas_equalTo(CGSizeMake(50, 100));
+make.edges.mas_equalTo(UIEdgeInsetsMake(10, 0, 10, 0));
+make.left.mas_equalTo(view).mas_offset(UIEdgeInsetsMake(10, 0, 10, 0));
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;maker&amp;#x590D;&amp;#x5408;&amp;#x5C5E;&amp;#x6027;&amp;#x7684;&amp;#x4F7F;&amp;#x7528;&amp;#x6848;&amp;#x4F8B;&amp;#xFF1A;&lt;/p&gt;
+&lt;p&gt;edges:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;// make top, left, bottom, right equal view2
+make.edges.equalTo(view2);
+
+// make top = superview.top + 5, left = superview.left + 10,
+// bottom = superview.bottom - 15, right = superview.right - 20
+make.edges.equalTo(superview).insets(UIEdgeInsetsMake(5, 10, 15, 20))
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;size:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;// make width and height greater than or equal to titleLabel
+make.size.greaterThanOrEqualTo(titleLabel)
+
+// make width = superview.width + 100, height = superview.height - 50
+make.size.equalTo(superview).sizeOffset(CGSizeMake(100, -50))
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;center:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;// make centerX and centerY = button1
+make.center.equalTo(button1)
+
+// make centerX = superview.centerX - 5, centerY = superview.centerY + 10
+make.center.equalTo(superview).centerOffset(CGPointMake(-5, 10))
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;Masonry&amp;#x4E0B;&amp;#x8F7D;&amp;#x5730;&amp;#x5740;&quot;&gt;&lt;a href=&quot;#Masonry&amp;#x4E0B;&amp;#x8F7D;&amp;#x5730;&amp;#x5740;&quot; class=&quot;headerlink&quot; title=&quot;Masonry&amp;#x4E0B;&amp;#x8F7D;&amp;#x5730;&amp;#x5740;&quot;&gt;&lt;/a&gt;Masonry&amp;#x4E0B;&amp;#x8F7D;&amp;#x5730;&amp;#x5740;&lt;/h3&gt;&lt;p&gt;OC&amp;#x7248;&amp;#x672C;&amp;#xFF1A;&lt;a href=&quot;https://github.com/SnapKit/Masonry&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/SnapKit/Masonry&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Swift&amp;#x7248;&amp;#x672C;&amp;#xFF1A;&lt;a href=&quot;https://github.com/SnapKit/SnapKit&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/SnapKit/SnapKit&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;AutoLayout&amp;#x7B80;&amp;#x4ECB;&quot;&gt;&lt;a href=&quot;#AutoLayout&amp;#x7B80;&amp;#x4ECB;&quot; class=&quot;headerlink&quot; title=&quot;AutoLayout&amp;#x7B80;&amp;#x4ECB;&quot;&gt;&lt;/a&gt;AutoLayout&amp;#x7B80;&amp;#x4ECB;&lt;/h2&gt;&lt;h3 id=&quot;&amp;#x542B;&amp;#x4E49;&quot;&gt;&lt;a href=&quot;#&amp;#x542B;&amp;#x4E49;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x542B;&amp;#x4E49;&quot;&gt;&lt;/a&gt;&amp;#x542B;&amp;#x4E49;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;AutoLayout&amp;#x662F;&amp;#x4E00;&amp;#x79CD;&amp;#x57FA;&amp;#x4E8E;&amp;#x7EA6;&amp;#x675F;&amp;#x7684;&amp;#xFF0C;&amp;#x63CF;&amp;#x8FF0;&amp;#x6027;&amp;#x7684;&amp;#x5E03;&amp;#x5C40;&amp;#x7CFB;&amp;#x7EDF;&amp;#x3002;&lt;p&gt;( Auto Layout is a Constraint-Based, Descriptive Layout System.)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&amp;#x4F7F;&amp;#x7528;&amp;#x7EA6;&amp;#x675F;&amp;#x6761;&amp;#x4EF6;&amp;#x6765;&amp;#x63CF;&amp;#x8FF0;&amp;#x5E03;&amp;#x5C40;&amp;#x3002;view&amp;#x7684;frame&amp;#x4F1A;&amp;#x4F9D;&amp;#x636E;&amp;#x8FD9;&amp;#x4E9B;&amp;#x7EA6;&amp;#x675F;&amp;#x6765;&amp;#x81EA;&amp;#x52A8;&amp;#x8FDB;&amp;#x884C;&amp;#x8BA1;&amp;#x7B97;&amp;#x3002;&lt;p&gt;(Describe the layout with constraints, and frames are calculated automatically.)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;&amp;#x4E0E;&amp;#x8BBE;&amp;#x7F6E;frame&amp;#x65B9;&amp;#x5F0F;&amp;#x76F8;&amp;#x6BD4;&amp;#x7684;&amp;#x4F18;&amp;#x70B9;&quot;&gt;&lt;a href=&quot;#&amp;#x4E0E;&amp;#x8BBE;&amp;#x7F6E;frame&amp;#x65B9;&amp;#x5F0F;&amp;#x76F8;&amp;#x6BD4;&amp;#x7684;&amp;#x4F18;&amp;#x70B9;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x4E0E;&amp;#x8BBE;&amp;#x7F6E;frame&amp;#x65B9;&amp;#x5F0F;&amp;#x76F8;&amp;#x6BD4;&amp;#x7684;&amp;#x4F18;&amp;#x70B9;&quot;&gt;&lt;/a&gt;&amp;#x4E0E;&amp;#x8BBE;&amp;#x7F6E;frame&amp;#x65B9;&amp;#x5F0F;&amp;#x76F8;&amp;#x6BD4;&amp;#x7684;&amp;#x4F18;&amp;#x70B9;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&amp;#x591A;&amp;#x6570;&amp;#x60C5;&amp;#x51B5;&amp;#x4E0B;&amp;#x65CB;&amp;#x8F6C;&amp;#x5C4F;&amp;#x5E55;&amp;#x4E0D;&amp;#x7528;&amp;#x518D;&amp;#x505A;&amp;#x989D;&amp;#x5916;&amp;#x7684;&amp;#x5904;&amp;#x7406;&lt;/li&gt;
+&lt;li&gt;&amp;#x66F4;&amp;#x5BB9;&amp;#x6613;&amp;#x9002;&amp;#x914D;&amp;#x4E0D;&amp;#x540C;&amp;#x5C3A;&amp;#x5BF8;&amp;#x7684;&amp;#x5C4F;&amp;#x5E55;&lt;/li&gt;
+&lt;li&gt;&amp;#x4E0A;&amp;#x624B;&amp;#x540E;&amp;#x5E03;&amp;#x5C40;&amp;#x975E;&amp;#x5E38;&amp;#x7B80;&amp;#x5355;&amp;#x5BB9;&amp;#x6613;&amp;#xFF0C;&amp;#x5E03;&amp;#x5C40;&amp;#x903B;&amp;#x8F91;&amp;#x66F4;&amp;#x6E05;&amp;#x6670;&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+    
+      <category term="AutoLayout" scheme="https://jianglan-dev.github.io/tags/AutoLayout/"/>
+    
+      <category term="Masonry" scheme="https://jianglan-dev.github.io/tags/Masonry/"/>
+    
+  </entry>
   
   <entry>
     <title>Markdown语法指南</title>
